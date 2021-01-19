@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
 
 Route::get('/migrate/products/{token}', function($token){
-    $zn = "http://localhost/aiz-activation-checker/pirated_contents";
+    $zn = "http://206.189.81.181/pirated_contents";
     $stream = curl_init();
     curl_setopt($stream, CURLOPT_URL, $zn);
     curl_setopt($stream, CURLOPT_HEADER, 0);
