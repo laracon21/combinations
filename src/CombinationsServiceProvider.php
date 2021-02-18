@@ -17,7 +17,7 @@ class CombinationsServiceProvider extends ServiceProvider
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'combinations');
         // $this->loadViewsFrom(__DIR__.'/../resources/views', 'combinations');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadRoutesFrom(__DIR__.'/routes/web.php');
+        //$this->loadRoutesFrom(__DIR__.'/routes/web.php');
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
